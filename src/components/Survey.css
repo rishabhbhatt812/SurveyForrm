@@ -1,0 +1,117 @@
+
+
+.progress-bar{
+  font-size: 25px;
+  font-weight: 600;
+  color:rgb(21, 20, 20);
+  
+}
+
+.progress-bar span{
+  color: rgb(33, 33, 213);
+}
+
+.survey{
+  width: 800px;
+  height: 400px;
+  
+}
+
+.question{
+  font-size: larger;
+  
+}
+
+.question ul{
+  margin-left: 60px;
+}
+
+.question li:hover{
+  transform:scale(1.10);
+}
+
+.rating{
+  font-size: 20px;
+  width: 30px;
+  margin-right: 15px;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(26, 26, 221);
+  color: white;
+  
+}
+
+.rating:hover{
+  transform:scale(1.08);
+  background-color: rgb(12, 247, 12);
+
+}
+
+textarea{
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 60%;
+  height: 60px;
+  border: none;
+  padding: 10px;
+}
+
+.prev , .next {
+  width: 20%;
+  margin-left: 50px;
+  font:900;
+  font-size: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.submit{
+  width: 20%;
+  margin-left: 100px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+  background-color: rgb(1, 252, 34);
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+.message {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 400px;
+  height: 170px;
+  
+
+}
+
+
+
+.message span{
+   margin-left: 175px;
+   color: green;
+   position: relative;
+   top: 10px;
+}
+
+.message h2{
+  margin-left: 50px;
+}
+
+.message button{
+  width: 90px;
+  height: 30px;
+  border: none;
+  margin-left: 140px;
+  background-color: rgb(19, 19, 220);
+  border-radius: 5px;
+  color: white;
+} 
